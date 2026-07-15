@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Environment Files
+.env
+
+# Log Files
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
