@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Integration UI Components</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="container navbar">
+
+            <a href="#" class="logo">UI Kit</a>
+
+            <button class="menu-btn" id="menu-btn">
+                ☰
+            </button>
+
+            <nav id="nav-menu">
+
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">Components</a></li>
+
+                    <li><a href="#">Documentation</a></li>
+
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main class="container">
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="section">
+
+            <h1>JavaScript UI Components</h1>
+
+            <p>
+                Interactive UI components built with HTML, CSS and JavaScript.
+            </p>
+
+        </section>
+
+        <!-- =========================
+             MODAL
+        ========================== -->
+
+        <section class="section">
+
+            <h2>Modal Component</h2>
+
+            <button class="btn btn-primary" id="open-modal">
+                Open Modal
+            </button>
+
+        </section>
+
+        <!-- Modal -->
+
+        <div class="modal" id="modal">
+
+            <div class="modal-content">
+
+                <h2>Welcome!</h2>
+
+                <p>
+                    This is a reusable modal component built with JavaScript.
+                </p>
+
+                <button class="btn btn-secondary" id="close-modal">
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- =========================
+             TABS
+        ========================== -->
+
+        <section class="section">
+
+            <h2>Tabs Component</h2>
+
+            <div class="tabs">
+
+                <button class="tab-btn active" data-tab="overview">
+                    Overview
+                </button>
+
+                <button class="tab-btn" data-tab="features">
+                    Features
+                </button>
+
+                <button class="tab-btn" data-tab="pricing">
+                    Pricing
+                </button>
+
+            </div>
+
+            <div class="tab-content active" id="overview">
+
+                <h3>Overview</h3>
+
+                <p>
+                    This project demonstrates reusable UI components using JavaScript.
+                </p>
+
+            </div>
+
+            <div class="tab-content" id="features">
+
+                <h3>Features</h3>
+
+                <p>
+                    Mobile navigation, modal window, and interactive tabs.
+                </p>
+
+            </div>
+
+            <div class="tab-content" id="pricing">
+
+                <h3>Pricing</h3>
+
+                <p>
+                    Free for educational purposes and learning JavaScript.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
